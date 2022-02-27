@@ -25,7 +25,7 @@ ul {
 }
 
 .container {
-    max-width: 1980px;
+    max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
 }
@@ -58,7 +58,7 @@ ul {
 
 #image {
     max-width: 100%;
-    max-height: 1229px;
+    max-height: 900px;
     border-radius: 10px;
     margin-top: 60px;
 }
@@ -85,7 +85,6 @@ ul {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 58px;
-
 
     margin-top: 70px;
 }
@@ -135,7 +134,8 @@ ul {
         font-size: 26px;
     }
     #img-caption {
-        font-size: 36px
+        font-size: 36px;
+        margin: 70px;
     }
     .biography-title {
         font-size: 42px;
@@ -150,7 +150,58 @@ ul {
 
 @media (max-width: 600px) {
     #image {
-        max-width: calc(1013px / 2.5);
-        height: calc(1229px / 2.5);
+        height: calc(900px / 2.5);
+    }
+    #title {
+        font-size: 36px;
+    }
+    .description {
+        font-size: 22px;
+    }
+    #img-caption {
+        font-size: 28px;
+        margin: 50px;
+    }
+    .biography-title {
+        font-size: 36px;
+        margin-top: 50px;
+    }
+    .biography-list li {
+        font-size: 28px;
+    }
+    #tribute-info { 
+        padding-bottom: 50px;
+    }
+    .footer-content {
+        font-size: 28px;
+        padding: 20px 30px;
+    }
+}
+
+@media (max-width: 400px) {
+    #image {
+        height: calc(900px / 3.5);
+    }
+    #title {
+        font-size: 32px;
+    }
+    .description {
+        font-size: 20px;
+    }
+    #img-caption {
+        font-size: 24px;
+        margin: 40px;
+    }
+    .biography-title {
+        font-size: 32px;
+    }
+    .biography-list li {
+        font-size: 24px;
+    }
+    #tribute-info { 
+        padding-bottom: 40px;
+    }
+    .footer-content {
+        font-size: 24px;
     }
 }
